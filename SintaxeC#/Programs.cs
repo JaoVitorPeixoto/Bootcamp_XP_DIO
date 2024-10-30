@@ -18,7 +18,8 @@ while (true)
     {
         case 0:
             Console.WriteLine("PROGRAMA FINALIZADO...");
-            return;
+            Environment.Exit(0);
+            break;
 
         case 1:
             Calculadora.Main();
