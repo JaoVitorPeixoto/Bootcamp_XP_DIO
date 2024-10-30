@@ -9,7 +9,8 @@ while (true)
     Console.WriteLine("1 - Calculadora");
     Console.WriteLine("2 - Tabuada");
     Console.WriteLine("Escolha uma opção: ");
-    int opcao = int.Parse(Console.ReadLine());
+    if (!int.TryParse(Console.ReadLine(), out int opcao))
+        opcao = -1;
 
     Console.WriteLine("------------------------------------------------------------------");
 
