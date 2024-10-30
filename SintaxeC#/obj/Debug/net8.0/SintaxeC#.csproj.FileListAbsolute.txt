@@ -1,0 +1,15 @@
+C:\Users\joaot\Documents\Bootcamp_XP_DIO\SintaxeC#\bin\Debug\net8.0\SintaxeC#.exe
+C:\Users\joaot\Documents\Bootcamp_XP_DIO\SintaxeC#\bin\Debug\net8.0\SintaxeC#.deps.json
+C:\Users\joaot\Documents\Bootcamp_XP_DIO\SintaxeC#\bin\Debug\net8.0\SintaxeC#.runtimeconfig.json
+C:\Users\joaot\Documents\Bootcamp_XP_DIO\SintaxeC#\bin\Debug\net8.0\SintaxeC#.dll
+C:\Users\joaot\Documents\Bootcamp_XP_DIO\SintaxeC#\bin\Debug\net8.0\SintaxeC#.pdb
+C:\Users\joaot\Documents\Bootcamp_XP_DIO\SintaxeC#\obj\Debug\net8.0\SintaxeC#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joaot\Documents\Bootcamp_XP_DIO\SintaxeC#\obj\Debug\net8.0\SintaxeC#.AssemblyInfoInputs.cache
+C:\Users\joaot\Documents\Bootcamp_XP_DIO\SintaxeC#\obj\Debug\net8.0\SintaxeC#.AssemblyInfo.cs
+C:\Users\joaot\Documents\Bootcamp_XP_DIO\SintaxeC#\obj\Debug\net8.0\SintaxeC#.csproj.CoreCompileInputs.cache
+C:\Users\joaot\Documents\Bootcamp_XP_DIO\SintaxeC#\obj\Debug\net8.0\SintaxeC#.sourcelink.json
+C:\Users\joaot\Documents\Bootcamp_XP_DIO\SintaxeC#\obj\Debug\net8.0\SintaxeC#.dll
+C:\Users\joaot\Documents\Bootcamp_XP_DIO\SintaxeC#\obj\Debug\net8.0\refint\SintaxeC#.dll
+C:\Users\joaot\Documents\Bootcamp_XP_DIO\SintaxeC#\obj\Debug\net8.0\SintaxeC#.pdb
+C:\Users\joaot\Documents\Bootcamp_XP_DIO\SintaxeC#\obj\Debug\net8.0\SintaxeC#.genruntimeconfig.cache
+C:\Users\joaot\Documents\Bootcamp_XP_DIO\SintaxeC#\obj\Debug\net8.0\ref\SintaxeC#.dll
