@@ -5,6 +5,8 @@ VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SintaxeC#", "SintaxeC#\SintaxeC#.csproj", "{C4A7B0C2-2F1E-4BCE-A210-E970A38B4BE6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estacionamento", "Estacionamento\Estacionamento.csproj", "{EA5490A6-6993-495F-92B6-7D82993DFD42}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{C4A7B0C2-2F1E-4BCE-A210-E970A38B4BE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4A7B0C2-2F1E-4BCE-A210-E970A38B4BE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4A7B0C2-2F1E-4BCE-A210-E970A38B4BE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA5490A6-6993-495F-92B6-7D82993DFD42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA5490A6-6993-495F-92B6-7D82993DFD42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA5490A6-6993-495F-92B6-7D82993DFD42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA5490A6-6993-495F-92B6-7D82993DFD42}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -5,9 +5,10 @@ while (true)
 {
     
     Console.WriteLine("ESCOLHA NOVAMENTE!");
-    Console.WriteLine("0 - Sair do progr");
+    Console.WriteLine("0 - Sair do programa");
     Console.WriteLine("1 - Calculadora");
     Console.WriteLine("2 - Tabuada");
+    Console.WriteLine("3 - Arrays");
     Console.WriteLine("Escolha uma opção: ");
     if (!int.TryParse(Console.ReadLine(), out int opcao))
         opcao = -1;
@@ -27,6 +28,10 @@ while (true)
 
         case 2:
             Tabuada.Main();
+            break;
+
+        case 3:
+            SintaxeC_.Mains.Array.Main();
             break;
 
         default:
