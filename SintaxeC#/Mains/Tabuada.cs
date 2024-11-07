@@ -13,10 +13,11 @@ namespace SintaxeC_.Mains
             while (true)
             {
                 Console.WriteLine("Digite um número para ver a tabuada: ");
+                
                 if(int.TryParse(Console.ReadLine(), out num) && num > 0)
                     break;
-                else
-                    Console.WriteLine("Erro! Digite um número válido e maior que zero!");
+  
+                Console.WriteLine("Erro! Digite um número válido e maior que zero!");
 
             }
 
