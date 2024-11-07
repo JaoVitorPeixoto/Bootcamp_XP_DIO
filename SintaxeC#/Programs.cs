@@ -1,10 +1,11 @@
 ﻿using SintaxeC_.Mains;
 
+Console.OutputEncoding = System.Text.Encoding.UTF8;
+
 Console.WriteLine("-------------------- BEM VINDO AOS MEUS ESTUDOS DE C# --------------------");
 while (true)
 {
     
-    Console.WriteLine("ESCOLHA NOVAMENTE!");
     Console.WriteLine("0 - Sair do programa");
     Console.WriteLine("1 - Calculadora");
     Console.WriteLine("2 - Tabuada");
@@ -13,7 +14,7 @@ while (true)
     if (!int.TryParse(Console.ReadLine(), out int opcao))
         opcao = -1;
 
-    Console.WriteLine("------------------------------------------------------------------");
+    Console.Clear();
 
     switch (opcao)
     {
@@ -40,5 +41,8 @@ while (true)
     }
     
     Console.WriteLine("------------------------------------------------------------------");
+    Console.WriteLine("Pressione uma tecla para continuar...");
+    Console.ReadLine();
+    Console.Clear();
 }
 
