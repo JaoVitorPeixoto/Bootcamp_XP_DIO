@@ -3,13 +3,25 @@ using Estacionamento.models;
 
 Console.OutputEncoding = System.Text.Encoding.UTF8;
 
+static decimal ObterValor(string mensagem)
+{
+    decimal valor;
+    while (true)
+    {
+        Console.WriteLine(mensagem);
+        if (decimal.TryParse(Console.ReadLine(), out valor) && valor > 0)
+        {
+            break;
+        }
+        Console.WriteLine("Valor inválido!");
+    }
+    return valor;
+}
+
 Console.WriteLine("-------------------- BEM VINDO AO ESTACIONAMENTO --------------------");
 
-Console.WriteLine("Digite o preço inicial:");
-var precoInicial = Convert.ToDecimal(Console.ReadLine());
-
-Console.WriteLine("Agora digite o preço por hora:");
-var precoPorHora = Convert.ToDecimal(Console.ReadLine());
+decimal precoInicial = ObterValor("Digite o preço inicial:");
+decimal precoPorHora = ObterValor("Agora digite o preço por hora:");
 
 Estacionamento.models.Estacionamento estacionamento = new Estacionamento.models.Estacionamento(precoInicial, precoPorHora);
 
